@@ -41,8 +41,6 @@ class Seuketchi:
 ![GitHub](https://img.shields.io/badge/-GitHub-000000?style=for-the-badge&logo=github&logoColor=4ade80)
 ![VSCode](https://img.shields.io/badge/-VSCode-000000?style=for-the-badge&logo=visualstudiocode&logoColor=4ade80)
 ![Android Studio](https://img.shields.io/badge/-Android%20Studio-000000?style=for-the-badge&logo=androidstudio&logoColor=4ade80)
-![Xilinx](https://img.shields.io/badge/-Xilinx-000000?style=for-the-badge&logo=xilinx&logoColor=4ade80)
-![Arduino IDE](https://img.shields.io/badge/-Arduino%20IDE-000000?style=for-the-badge&logo=arduino&logoColor=4ade80)
 
 ## 📊 GitHub Metrics
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Seuketchi&theme=github_dark" width="100%" />
