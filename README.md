@@ -3,7 +3,6 @@
 # 🚀 Hello World! I'm Tristan Jadman
 *Computer Engineering Student | Software Engineer | IoT Enthusiast*
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Seuketchi&theme=github-dark-green&hide_border=true&background=000000&ring=4ade80&fire=4ade80&currStreakLabel=4ade80" />
 
 <img src="https://github-readme-stats.vercel.app/api?username=Seuketchi&show_icons=true&theme=github_dark&hide_border=true&bg_color=000000&icon_color=4ade80&text_color=ffffff&title_color=4ade80" />
 
