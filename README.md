@@ -66,7 +66,7 @@ class Seuketchi:
 
 ## 🌐 Connect With Me
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-000000?style=for-the-badge&logo=LinkedIn&logoColor=4ade80)](https://www.linkedin.com/in/tristan-jadman/)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=Safari&logoColor=4ade80)](https://seuketchi.github.io/PortfolioWebsite/)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=Safari&logoColor=4ade80)](https://seuketchi.github.io/tan/)
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Seuketchi&theme=github-dark&hide_border=true&bg_color=000000&color=4ade80&line=4ade80&point=ffffff" width="98%" />
 
