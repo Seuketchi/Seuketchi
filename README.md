@@ -1,17 +1,20 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=4ade80&height=120&section=header&fontColor=ffffff" width="100%" />
+
 <div align="center">
 
 # Tristan Jadman
-### *Polymath in Progress · Building at the intersection of AI, embedded systems, and design*
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=4ADE80&center=true&vCenter=true&width=600&lines=Polymath+in+Progress+%F0%9F%9A%80;CE+Student+%7C+Startup+Founder+%7C+Agritech+Intern;Building+at+the+intersection+of+AI+%26+Hardware;PSC9+Finalist+%7C+HackTheBox+%7C+Systems+Thinker" alt="Typing SVG" /></a>
+
+<br/>
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-000000?style=for-the-badge&logo=LinkedIn&logoColor=4ade80)](https://www.linkedin.com/in/tristan-jadman/)
 [![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=Safari&logoColor=4ade80)](https://seuketchi.github.io/tan/)
 [![Instagram](https://img.shields.io/badge/-Instagram-000000?style=for-the-badge&logo=instagram&logoColor=4ade80)](https://www.instagram.com/ttan404/)
 
-![Computer Engineering Student](https://img.shields.io/badge/Computer%20Engineering%20Student-000000?style=flat-square&color=000000&labelColor=000000&logo=graduation-cap&logoColor=4ade80)
-![PSC9 Finalist](https://img.shields.io/badge/PSC9%20Finalist-000000?style=flat-square&color=000000&labelColor=000000&logo=trophy&logoColor=4ade80)
-![Systems Thinker](https://img.shields.io/badge/Systems%20Thinker-000000?style=flat-square&color=000000&labelColor=000000&logo=brain&logoColor=4ade80)
-
 </div>
+
+---
 
 ## 🤖 Who Am I?
 
@@ -29,6 +32,8 @@ class Tristan:
     def approach(self, problem):
         return "Think in systems. Build with intent. Ship something real. 🚀"
 ```
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -61,44 +66,76 @@ class Tristan:
 ![Figma](https://img.shields.io/badge/-Figma-000000?style=for-the-badge&logo=figma&logoColor=4ade80)
 ![VSCode](https://img.shields.io/badge/-VSCode-000000?style=for-the-badge&logo=visualstudiocode&logoColor=4ade80)
 
+---
+
 ## 🚀 Featured Projects
 
 | Project | Description | Tech | Status |
 |---------|-------------|------|--------|
 | ⚡ **Zeus AI** | Smart power management system — *Top 10 PSC9 Finalist* | Python · ESP32 · AI | Archived |
 | 🔐 **NFC Microcontroller System** | ESP32 access control with NFC student ID & LCD display | ESP32 · Arduino · RTOS · Assembly | Completed |
-| 📊 **Google Sheets Project Manager** | Kanban-style PM tool with automated email reminders via Apps Script | Google Sheets · Apps Script · Gmail API | Deployed |
+| 📊 **Google Sheets Project Manager** | Kanban-style PM tool with automated email reminders via Apps Script | Sheets · Apps Script · Gmail API | Deployed |
 | 📓 **Notes App** | Minimal journaling web app with clean UX | HTML · Tailwind · JavaScript | In Progress |
 
-## 💼 Experience
+---
 
+## 💼 Experience & 🎯 Currently
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+### 💼 Experience
 - 🌀 **Founder & CEO** — Dalumat Film Group *(2025 – Present)*
 - 🌱 **Agritech Intern** — Fresco Greenovation *(2025 – Ongoing)*
 - 📰 **Junior Layout & Design Head Editor** *(2024 – 2025)*
 
-## 🎯 Currently
+</td>
+<td valign="top" width="50%">
 
+### 🎯 Currently
 - 🔬 Working on my **thesis**
-- 🔒 Doing **Ethical Hacking** on HackTheBox
-- 🌱 Interning at **Fresco Greenovation** (agritech)
+- 🔒 **Ethical Hacking** on HackTheBox
+- 🌱 Interning at **Fresco Greenovation**
 - 🧠 Deepening **system architecture** knowledge
+
+</td>
+</tr>
+</table>
+
+---
 
 ## 📊 GitHub Stats
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Seuketchi&show_icons=true&theme=github_dark&hide_border=true&bg_color=000000&icon_color=4ade80&text_color=ffffff&title_color=4ade80" />
+<img src="https://github-readme-stats.vercel.app/api?username=Seuketchi&show_icons=true&theme=github_dark&hide_border=true&bg_color=000000&icon_color=4ade80&text_color=ffffff&title_color=4ade80" height="165" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Seuketchi&theme=github-dark-blue&hide_border=true&background=000000&ring=4ade80&fire=4ade80&currStreakLabel=4ade80&sideLabels=ffffff&dates=888888" height="165" />
+
+<br/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Seuketchi&layout=compact&theme=github_dark&hide_border=true&bg_color=000000&title_color=4ade80&text_color=ffffff" />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Seuketchi&theme=github_dark" width="100%" />
+<br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=Seuketchi&theme=matrix&no-frame=true&no-bg=true&margin-w=8&column=6" width="100%" />
+
+<br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Seuketchi&theme=github-dark&hide_border=true&bg_color=000000&color=4ade80&line=4ade80&point=ffffff" width="98%" />
 
+</div>
+
 ---
 
+<div align="center">
+
 *"The people who are crazy enough to think they can change the world are the ones who do."*
+
+<br/>
 
 <img src="https://komarev.com/ghpvc/?username=Seuketchi&color=4ade80&style=for-the-badge&label=PROFILE+VIEWS" />
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=4ade80&height=100&section=footer" width="100%" />
