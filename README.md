@@ -120,12 +120,13 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Seuketchi&show_icons=true&theme=github_dark&hide_border=true&bg_color=000000&icon_color=4ade80&text_color=ffffff&title_color=4ade80" height="170"/>
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Seuketchi&theme=github-dark-blue&hide_border=true&background=000000&ring=4ade80&fire=4ade80&currStreakLabel=4ade80&sideLabels=ffffff&dates=888888" height="170"/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Seuketchi&theme=github-dark-blue&hide_border=true&background=000000&ring=4ade80&fire=4ade80&currStreakLabel=4ade80&sideLabels=ffffff&dates=888888" />
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Seuketchi&layout=compact&theme=github_dark&hide_border=true&bg_color=000000&title_color=4ade80&text_color=ffffff" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Seuketchi&theme=github_dark" height="150"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Seuketchi&theme=github_dark" height="150"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Seuketchi&theme=github_dark" height="150"/>
 
 <br/>
 
