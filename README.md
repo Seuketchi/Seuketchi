@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=4ADE80&center=true&vCenter=true&width=700&lines=CE+Student+%7C+Startup+Founder+%7C+Agritech+Intern;Building+AI+%2B+Embedded+Systems+%2B+Full-Stack;PSC9+Finalist+%E2%9A%A1+%7C+HackTheBox+%F0%9F%94%92+%7C+Systems+Thinker+%F0%9F%A7%A0;Bridging+the+digital+and+physical+world+%F0%9F%9A%80" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=4ADE80&center=true&vCenter=true&width=700&lines=CpE+Student+%7C+Agritech+Intern+%7C+IoT+Builder;Building+AI+%2B+Embedded+Systems+%2B+Full-Stack;PSC9+Finalist+%E2%9A%A1+%7C+HackTheBox+%F0%9F%94%92+%7C+Systems+Thinker+%F0%9F%A7%A0;Bridging+the+digital+and+physical+world+%F0%9F%9A%80" alt="Typing SVG" /></a>
 
 <br/><br/>
 
@@ -23,7 +23,7 @@
 
   name        : Tristan Jadman
   title       : Polymath in Progress
-  roles       : CE Student | Startup Founder | Agritech Intern
+  roles       : CpE Student | Agritech Intern | IoT Builder
   focus       : AI & ML | Embedded Systems | Full-Stack | Startup Strategy
   currently   : Thesis | HackTheBox | Fresco Greenovation | System Architecture
   achievement : PSC9 Top 10 Finalist ⚡
@@ -133,7 +133,7 @@
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Seuketchi&theme=github-dark&hide_border=true&bg_color=000000&color=4ade80&line=4ade80&point=ffffff" width="98%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Seuketchi&theme=github_dark" width="98%"/>
 
 </div>
 
