@@ -1,0 +1,76 @@
+<svg viewBox="0 0 1200 280" width="1200" height="280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="PCB-style banner: Tristan Jadman, SEUKETCHI-U1 — Edge AI, IoT, Embedded">
+  <style>
+    .silk { font-family: ui-monospace, "Cascadia Mono", "Source Code Pro", Menlo, Consolas, monospace; fill: #86c7a1; font-size: 13px; letter-spacing: 2px; }
+    .name { font-family: ui-monospace, "Cascadia Mono", "Source Code Pro", Menlo, Consolas, monospace; fill: #ecf2ee; font-size: 32px; font-weight: 700; letter-spacing: 5px; }
+    .part { font-family: ui-monospace, "Cascadia Mono", "Source Code Pro", Menlo, Consolas, monospace; fill: #9fb3a8; font-size: 14px; letter-spacing: 3px; }
+    .trace { stroke: #b87333; stroke-width: 2.5; fill: none; stroke-linejoin: round; opacity: 0.75; }
+    @media (prefers-reduced-motion: reduce) { .anim { display: none; } }
+  </style>
+
+  <!-- board substrate -->
+  <rect x="0" y="0" width="1200" height="280" rx="14" fill="#06130c"/>
+  <rect x="6" y="6" width="1188" height="268" rx="10" fill="none" stroke="#0f2b1d" stroke-width="2"/>
+
+  <!-- mounting holes -->
+  <g stroke="#e0a458" stroke-width="2" fill="#020805">
+    <circle cx="30" cy="30" r="9"/><circle cx="1170" cy="30" r="9"/>
+    <circle cx="30" cy="250" r="9"/><circle cx="1170" cy="250" r="9"/>
+  </g>
+
+  <!-- copper traces, left -->
+  <polyline class="trace" points="0,95 432,95"/>
+  <polyline class="trace" points="0,55 300,55 370,125 432,125"/>
+  <polyline class="trace" points="0,155 432,155"/>
+  <polyline class="trace" points="0,235 300,235 350,185 432,185"/>
+  <!-- copper traces, right -->
+  <polyline class="trace" points="768,95 1200,95"/>
+  <polyline class="trace" points="768,125 900,125 950,75 1200,75"/>
+  <polyline class="trace" points="768,155 1200,155"/>
+  <polyline class="trace" points="768,185 870,185 920,235 1200,235"/>
+
+  <!-- vias at trace bends -->
+  <g fill="#06130c" stroke="#e0a458" stroke-width="2">
+    <circle cx="300" cy="55" r="5"/><circle cx="300" cy="235" r="5"/>
+    <circle cx="950" cy="75" r="5"/><circle cx="920" cy="235" r="5"/>
+  </g>
+
+  <!-- IC pads -->
+  <g fill="#e0a458">
+    <rect x="424" y="90" width="16" height="10" rx="2"/><rect x="424" y="120" width="16" height="10" rx="2"/>
+    <rect x="424" y="150" width="16" height="10" rx="2"/><rect x="424" y="180" width="16" height="10" rx="2"/>
+    <rect x="760" y="90" width="16" height="10" rx="2"/><rect x="760" y="120" width="16" height="10" rx="2"/>
+    <rect x="760" y="150" width="16" height="10" rx="2"/><rect x="760" y="180" width="16" height="10" rx="2"/>
+  </g>
+
+  <!-- IC package -->
+  <rect x="440" y="68" width="320" height="144" rx="8" fill="#0d1117" stroke="#243b2f" stroke-width="2"/>
+  <circle cx="458" cy="86" r="4" fill="#ecf2ee"/> <!-- pin 1 -->
+  <text class="name" x="600" y="138" text-anchor="middle">TRISTAN</text>
+  <text class="name" x="600" y="172" text-anchor="middle">JADMAN</text>
+  <text class="part" x="600" y="198" text-anchor="middle">SEUKETCHI-U1</text>
+
+  <!-- silkscreen labels -->
+  <text class="silk" x="56" y="38">TJ-EDGE-01 · REV 2026.07</text>
+  <text class="silk" x="1144" y="38" text-anchor="end">EDGE AI · IoT · EMBEDDED</text>
+  <text class="silk" x="56" y="256">ILIGAN CITY · PH</text>
+  <text class="silk" x="1144" y="256" text-anchor="end">PSC9 TOP-10 FINALIST</text>
+
+  <!-- status LED -->
+  <rect x="70" y="222" width="10" height="7" rx="1.5" fill="#4ade80">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+  <text class="silk" x="88" y="230" font-size="10">PWR</text>
+
+  <!-- signal pulses travelling the traces -->
+  <g class="anim">
+    <circle r="4" fill="#4ade80">
+      <animateMotion dur="4.5s" repeatCount="indefinite" path="M0,55 L300,55 L370,125 L432,125"/>
+    </circle>
+    <circle r="4" fill="#4ade80">
+      <animateMotion dur="5.5s" begin="1.2s" repeatCount="indefinite" path="M768,185 L870,185 L920,235 L1200,235"/>
+    </circle>
+    <circle r="4" fill="#4ade80">
+      <animateMotion dur="6s" begin="2.6s" repeatCount="indefinite" path="M768,95 L1200,95"/>
+    </circle>
+  </g>
+</svg>

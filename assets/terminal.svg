@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1200 384" width="1200" height="384" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Serial console boot log of the SEUKETCHI-U1">
+  <style>
+    text { font-family: ui-monospace, "Cascadia Mono", "Source Code Pro", Menlo, Consolas, monospace; font-size: 17px; }
+    .ts { fill: #e0a458; }
+    .msg { fill: #ecf2ee; }
+    .ok { fill: #4ade80; font-weight: 700; }
+    .warn { fill: #d4a72c; font-weight: 700; }
+    .dim { fill: #6b7280; }
+    .title { fill: #86c7a1; font-size: 13px; letter-spacing: 2px; }
+    .l { opacity: 0; animation: show 0.01s steps(1) forwards; }
+    .cursor { opacity: 0; animation: show 0.01s steps(1) 5.6s forwards, blink 1.1s steps(1) 5.6s infinite; }
+    @keyframes show { to { opacity: 1; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .l, .cursor { animation: none; opacity: 1; }
+    }
+  </style>
+
+  <!-- window -->
+  <rect x="0" y="0" width="1200" height="384" rx="12" fill="#0d1117" stroke="#243b2f" stroke-width="2"/>
+  <!-- title bar -->
+  <path d="M2,12 a10,10 0 0 1 10,-10 h1176 a10,10 0 0 1 10,10 v32 h-1196 z" fill="#06130c"/>
+  <circle cx="30" cy="23" r="7" fill="#f85149"/>
+  <circle cx="54" cy="23" r="7" fill="#d4a72c"/>
+  <circle cx="78" cy="23" r="7" fill="#4ade80"/>
+  <text class="title" x="600" y="28" text-anchor="middle">UART0 · 115200 8N1 · /dev/ttyUSB0</text>
+
+  <!-- boot log -->
+  <text class="l" x="36" y="82" style="animation-delay:.4s"><tspan class="dim">seuketchi-u1 login:</tspan><tspan class="msg" dx="10">tristan</tspan></text>
+  <text class="l" x="36" y="108" style="animation-delay:1.0s"><tspan class="ts">[    0.000]</tspan><tspan class="msg" dx="10">boot ROM v2026.07 — SEUKETCHI-U1</tspan></text>
+  <text class="l" x="36" y="134" style="animation-delay:1.5s"><tspan class="ts">[    0.032]</tspan><tspan class="msg" dx="10">core0: computer engineering (senior yr) ....</tspan><tspan class="ok" dx="10">OK</tspan></text>
+  <text class="l" x="36" y="160" style="animation-delay:2.0s"><tspan class="ts">[    0.058]</tspan><tspan class="msg" dx="10">core1: edge AI accelerator .................</tspan><tspan class="ok" dx="10">OK</tspan></text>
+  <text class="l" x="36" y="186" style="animation-delay:2.5s"><tspan class="ts">[    0.104]</tspan><tspan class="msg" dx="10">mounting /dev/thesis (edge-RL · agritech) ..</tspan><tspan class="warn" dx="10">IN PROGRESS</tspan></text>
+  <text class="l" x="36" y="212" style="animation-delay:3.0s"><tspan class="ts">[    0.131]</tspan><tspan class="msg" dx="10">loading ai8x model on MAX78000 .............</tspan><tspan class="ok" dx="10">OK</tspan></text>
+  <text class="l" x="36" y="238" style="animation-delay:3.5s"><tspan class="ts">[    0.167]</tspan><tspan class="msg" dx="10">flutter runtime attached ...................</tspan><tspan class="ok" dx="10">OK</tspan></text>
+  <text class="l" x="36" y="264" style="animation-delay:4.0s"><tspan class="ts">[    0.203]</tspan><tspan class="msg" dx="10">starting htb daemon (background) ...........</tspan><tspan class="ok" dx="10">OK</tspan></text>
+  <text class="l" x="36" y="290" style="animation-delay:4.5s"><tspan class="ts">[    0.241]</tspan><tspan class="msg" dx="10">PSC9 benchmark ..............</tspan><tspan class="ok" dx="10">TOP-10 NATIONAL</tspan></text>
+  <text class="l" x="36" y="316" style="animation-delay:5.0s"><tspan class="ts">[    0.260]</tspan><tspan class="msg" dx="10">all systems nominal</tspan></text>
+  <text class="l" x="36" y="350" style="animation-delay:5.6s"><tspan class="ok">tristan@seuketchi</tspan><tspan class="dim">:~$</tspan></text>
+  <rect class="cursor" x="238" y="336" width="11" height="19" fill="#4ade80"/>
+</svg>

@@ -1,153 +1,92 @@
-<img src="https://capsule-render.vercel.app/api?type=venom&color=4ade80&height=220&section=header&text=Tristan%20Jadman&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=68&desc=Polymath%20in%20Progress&descAlignY=86&descSize=20&descColor=ffffff" width="100%" />
+<img src="assets/header.svg" width="100%" alt="PCB-style banner: TRISTAN JADMAN — SEUKETCHI-U1 · Edge AI · IoT · Embedded" />
 
 <div align="center">
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&pause=1000&color=4ADE80&center=true&vCenter=true&width=700&lines=CpE+Student+%7C+Agritech+Intern+%7C+IoT+Builder;Building+AI+%2B+Embedded+Systems+%2B+Full-Stack;PSC9+Finalist+%E2%9A%A1+%7C+HackTheBox+%F0%9F%94%92+%7C+Systems+Thinker+%F0%9F%A7%A0;Bridging+the+digital+and+physical+world+%F0%9F%9A%80" alt="Typing SVG" /></a>
-
+<sub><code>TJ-EDGE-01</code> · datasheet rev 2026.07 · Iligan City, PH</sub>
 <br/><br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=4ade80)](https://www.linkedin.com/in/tristan-jadman/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=safari&logoColor=4ade80)](https://seuketchi.github.io/tan/)
-[![HackTheBox](https://img.shields.io/badge/HackTheBox-000000?style=for-the-badge&logo=hackthebox&logoColor=4ade80)](https://www.hackthebox.com/)
-[![Instagram](https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=4ade80)](https://www.instagram.com/ttan404/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=e0a458)](https://www.linkedin.com/in/tristan-jadman/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=flat-square&logo=safari&logoColor=e0a458)](https://seuketchi.github.io/tan/)
+[![HackTheBox](https://img.shields.io/badge/HackTheBox-0d1117?style=flat-square&logo=hackthebox&logoColor=e0a458)](https://www.hackthebox.com/)
+[![Instagram](https://img.shields.io/badge/Instagram-0d1117?style=flat-square&logo=instagram&logoColor=e0a458)](https://www.instagram.com/ttan404/)
 
 </div>
 
----
+## 1 · GENERAL DESCRIPTION
 
-## `$ whoami`
+The **SEUKETCHI-U1** is a computer engineering student in a compact, low-power package,
+integrating edge AI, embedded systems, and mobile development on a single die. The device
+runs reinforcement learning and CNN inference on microcontroller-class hardware, drives
+Flutter applications, and has been benchmarked at **Top 10 nationally** (Philippine
+Startup Challenge 9).
 
-```bash
-┌──(tristan㉿seuketchi)-[~]
-└─$ cat about.txt
+Current operating mode: **thesis** — reinforcement learning on edge hardware for smart
+agriculture (tomato ripening 🍅), with Fresco Greenovation.
 
-  name        : Tristan Jadman
-  title       : Polymath in Progress
-  roles       : CpE Student | Agritech Intern | IoT Builder
-  focus       : AI & ML | Embedded Systems | Full-Stack | Startup Strategy
-  currently   : Thesis | HackTheBox | Fresco Greenovation | System Architecture
-  achievement : PSC9 Top 10 Finalist ⚡
-  superpower  : Building things that bridge the digital and physical world
+## 2 · POWER-ON SELF-TEST — UART0
 
-┌──(tristan㉿seuketchi)-[~]
-└─$ _
-```
+<img src="assets/terminal.svg" width="100%" alt="Serial console boot log: cores OK, /dev/thesis mounting, ai8x model loaded on MAX78000, PSC9 benchmark TOP-10 NATIONAL" />
 
----
+## 3 · FEATURES
 
-## `$ ls tech-stack/`
+- CNN inference on the MAX78000 neural-accelerator MCU via the ai8x toolchain
+- On-device reinforcement learning for agritech telemetry
+- Single-cycle MIPS CPU implemented in Verilog on FPGA
+- ESP32 + FreeRTOS firmware: NFC access control, PID control loops
+- Flutter/Dart mobile development; React/TypeScript on the web side
+- Integrated ethical-hacking coprocessor (HackTheBox)
+
+## 4 · PIN CONFIGURATION — PROJECTS
+
+| PIN | NAME | TYPE | FUNCTION |
+|:---:|------|:----:|----------|
+| 1 | [`edge-rl-tomato-ripening`](https://github.com/Seuketchi/edge-rl-tomato-ripening-data) | `AI/RL` | Thesis — telemetry from hardware runs, reproducibility scripts, timelapse. **Active.** |
+| 2 | [`max78000-edge-ai`](https://github.com/Seuketchi/max78000-horse-human-classifier) | `AI/EMB` | CNN image classifiers on a neural-accelerator microcontroller (ai8x-trained) |
+| 3 | `zeus-ai` | `AI/PWR` | Smart energy management — pitched at PSC9, *Top 10 nationally* |
+| 4 | [`mips-single-cycle-fpga`](https://github.com/Seuketchi/mips-single-cycle-fpga) | `HW` | Single-cycle MIPS processor in Verilog, deployed on FPGA |
+| 5 | `nfc-access-control` | `EMB` | ESP32 access control — NFC student ID, LCD, RTOS scheduling |
+| 6 | [`ever-ease`](https://github.com/Seuketchi/Ever-ease) | `EMB` | PID-controlled laptop cooling (Feedback & Control Systems) |
+| 7 | `NC` | — | Reserved for future projects |
+
+## 5 · SUPPORTED TOOLCHAINS
+
+| DOMAIN | STACK |
+|--------|-------|
+| Edge AI / ML | `Python` `PyTorch` `ai8x` |
+| Embedded | `C` `C++` `Arduino` `ESP32` `MAX78000` `FreeRTOS` |
+| Hardware | `Verilog` `FPGA` `MIPS Assembly` |
+| Mobile / Web | `Flutter` `Dart` `React` `TypeScript` `Tailwind` |
+| Infra / Tools | `Firebase` `Supabase` `Git` `Linux` `Figma` |
+
+## 6 · APPLICATION NOTES — EXPERIENCE
+
+| AN | TITLE | PERIOD |
+|:---:|-------|--------|
+| AN-003 | Founder & CEO — Dalumat Film Group | 2025 – present |
+| AN-002 | Agritech Intern — Fresco Greenovation | 2025 – present |
+| AN-001 | Junior Layout & Design Head — Student Publication | 2024 – 2025 |
+
+## 7 · TYPICAL PERFORMANCE CHARACTERISTICS
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,flutter,dart,react,tailwind,js,cpp,c,java,arduino,firebase,supabase,figma,git,vscode&theme=dark&perline=8" />
+<img src="https://streak-stats.demolab.com?user=Seuketchi&theme=github-dark-blue&hide_border=true&background=06130C&ring=E0A458&fire=E0A458&currStreakLabel=4ADE80&sideLabels=ECF2EE&dates=6B7280" alt="GitHub streak stats" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Seuketchi&theme=github_dark" height="150" alt="Top languages by repo"/>
 
 </div>
 
+## 8 · REVISION HISTORY
+
+| REV | DATE | CHANGES |
+|:---:|------|---------|
+| 2026.07 | Jul 2026 | Edge-RL thesis in progress; MAX78000 classifiers shipped; civic-tech contributions (BetterIligan) |
+| 2025 | — | PSC9 Top-10 finalist (Zeus AI); joined Fresco Greenovation; founded Dalumat Film Group |
+| 2024 | — | First CPU in Verilog; ESP32/RTOS systems; student publication design head |
+
+---
+
+<div align="center">
+<img src="https://komarev.com/ghpvc/?username=Seuketchi&color=e0a458&style=flat-square&label=PROFILE+VIEWS" alt="Profile views" />
 <br/>
-
-<div align="center">
-
-![Verilog](https://img.shields.io/badge/-Verilog-000000?style=flat-square&logo=v&logoColor=4ade80)
-![ESP32](https://img.shields.io/badge/-ESP32-000000?style=flat-square&logo=espressif&logoColor=4ade80)
-![Apps Script](https://img.shields.io/badge/-Apps%20Script-000000?style=flat-square&logo=google&logoColor=4ade80)
-![Assembly](https://img.shields.io/badge/-Assembly-000000?style=flat-square&logo=assemblyscript&logoColor=4ade80)
-![Linux](https://img.shields.io/badge/-Linux-000000?style=flat-square&logo=linux&logoColor=4ade80)
-
+<sub>© Seuketchi Semiconductor — specifications subject to change without notice.</sub>
 </div>
-
----
-
-## `$ cat projects.log`
-
-<div align="center">
-
-| &nbsp; | Project | Description | Stack | Status |
-|:---:|---------|-------------|-------|:------:|
-| ⚡ | **Zeus AI** | Smart energy management system. Pitched at PSC9 — *Top 10 Nationally* | `Python` `ESP32` `AI` | `archived` |
-| 🔐 | **NFC Microcontroller System** | ESP32 access control w/ NFC student ID, LCD & real-time OS scheduling | `ESP32` `Arduino` `RTOS` `Assembly` | `completed` |
-| 📊 | **Google Sheets PM** | Kanban board + automated email reminders, no third-party apps needed | `Sheets` `Apps Script` `Gmail API` | `deployed` |
-| 📓 | **Notes App** | Minimal journaling web app, clarity-first UX | `HTML` `Tailwind` `JS` | `in progress` |
-
-</div>
-
----
-
-## `$ ps aux | grep experience`
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-### 💼 Roles
-```
-🌀  Founder & CEO
-    Dalumat Film Group
-    2025 – Present
-
-🌱  Agritech Intern
-    Fresco Greenovation
-    2025 – Ongoing
-
-📰  Junior Layout & Design Head
-    Student Publication
-    2024 – 2025
-```
-
-</td>
-<td valign="top" width="50%">
-
-### 🎯 Active Missions
-```
-🔬  Writing my thesis
-
-🔒  Ethical Hacking
-    [ HackTheBox ]
-
-🌱  Agritech R&D
-    [ Fresco Greenovation ]
-
-🧠  System Architecture
-    deep dive mode
-```
-
-</td>
-</tr>
-</table>
-
----
-
-## `$ github-stats --verbose`
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Seuketchi&theme=github-dark-blue&hide_border=true&background=000000&ring=4ade80&fire=4ade80&currStreakLabel=4ade80&sideLabels=ffffff&dates=888888" />
-
-<br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Seuketchi&theme=github_dark" height="150"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Seuketchi&theme=github_dark" height="150"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Seuketchi&theme=github_dark" height="150"/>
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Seuketchi&theme=matrix&no-frame=true&no-bg=true&margin-w=8&column=6" width="100%"/>
-
-<br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Seuketchi&theme=github_dark" width="98%"/>
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://readme-jokes.vercel.app/api?theme=dark&bgColor=%23000000&borderColor=%234ade80&textColor=%23ffffff&qColor=%234ade80&aColor=%23ffffff" alt="Jokes Card" />
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=Seuketchi&color=4ade80&style=for-the-badge&label=PROFILE+VIEWS" />
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=4ade80&height=100&section=footer" width="100%" />
