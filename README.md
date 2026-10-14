@@ -1,4 +1,4 @@
-<a href="https://seuketchi.github.io/tan/"><img src="assets/banner-v5.png" width="100%" alt="Tristan Jadman — Computer engineer who ships software. Flutter, edge AI, embedded, agent tooling. Cagayan de Oro, Philippines." /></a>
+<a href="https://seuketchi.github.io/tan/"><img src="assets/banner-v6.png" width="100%" alt="Seuketchi — Tristan Jadman, computer engineer who ships software. Inabel-woven band with chip and film-strip motifs." /></a>
 
 <div align="center">
 
