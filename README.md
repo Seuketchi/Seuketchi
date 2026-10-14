@@ -1,4 +1,4 @@
-<a href="https://seuketchi.github.io/tan/"><img src="assets/banner-v6.png" width="100%" alt="Seuketchi — Tristan Jadman, computer engineer who ships software. Inabel-woven band with chip and film-strip motifs." /></a>
+<a href="https://seuketchi.github.io/tan/"><img src="assets/banner-v7.png" width="100%" alt="Seuketchi — From silicon to screen. Tristan Jadman, computer engineer." /></a>
 
 <div align="center">
 
